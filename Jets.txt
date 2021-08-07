@@ -1,0 +1,5 @@
+fighter jet,f-18,12,456,123.45
+cargo plane,c-130,56,78,456,67
+fighter jet,f-15,12,456,123.45
+cargo plane,c-5,56,78,456,67
+cargo plane,c-17,56,78,456,67
