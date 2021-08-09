@@ -64,7 +64,7 @@ public class AirField {
 		for (int i = 0; i < jets.size(); i++) {
 			System.out.println(jets.get(i));
 		currentJet = jets.get(i);
-		int maxTimeOfFlight = currentJet.getRange() * currentJet.getSpeed();
+		double maxTimeOfFlight = (double)(currentJet.getRange() / currentJet.getSpeed());
 		System.out.println(currentJet.getModel() 
 				+ " can fly " + maxTimeOfFlight + " hours before needing to refuel.");
 		
